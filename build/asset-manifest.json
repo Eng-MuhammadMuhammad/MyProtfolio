@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.caed2065.css",
+    "main.js": "/static/js/main.b965c5e0.js",
+    "static/media/Project_7.png": "/static/media/Project_7.b717af876094fb7c8657.png",
+    "static/media/Art Coperation.png": "/static/media/Art Coperation.d4209df1467c9820a3f1.png",
+    "static/media/Project_9.png": "/static/media/Project_9.9f4e95c30aabb3ff07a3.png",
+    "static/media/Project_11.png": "/static/media/Project_11.5b2010b9c39694b060d7.png",
+    "static/media/ShopCart.png": "/static/media/ShopCart.df6c176f39e9bdf97c43.png",
+    "static/media/Project_12.png": "/static/media/Project_12.16c5294b3dcd5f9b8d0e.png",
+    "static/media/DesignAgency.png": "/static/media/DesignAgency.774a4a32fbb09778890f.png",
+    "static/media/Media Company.png": "/static/media/Media Company.c2a5f53caed1496e15d7.png",
+    "static/media/TheDeveloper.png": "/static/media/TheDeveloper.096c1871d737df82e9dd.png",
+    "static/media/Dribble.png": "/static/media/Dribble.512d062287a5ebe24959.png",
+    "static/media/logo.png": "/static/media/logo.55dc8c6d7e71a131c331.png",
+    "static/media/Project_8.png": "/static/media/Project_8.6d58b8088c2946471791.png",
+    "static/media/Project_6.png": "/static/media/Project_6.982944b1f710c091f5f3.png",
+    "index.html": "/index.html",
+    "main.caed2065.css.map": "/static/css/main.caed2065.css.map",
+    "main.b965c5e0.js.map": "/static/js/main.b965c5e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caed2065.css",
+    "static/js/main.b965c5e0.js"
+  ]
+}
