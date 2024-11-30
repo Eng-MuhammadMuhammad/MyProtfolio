@@ -16,10 +16,10 @@ import Project_12 from '../../imgs/Project_12.png';
 import Project_13 from '../../imgs/Dribble.png';
 
 const projects = [
-  { id: 1, label: "E-Commerce Sport Shop", image: Project_1, link: "/" }, 
-  { id: 2, label: "Art Coperation", image: Project_2, link: "/" },
-  { id: 3, label: "Design Agency", image: Project_3, link: "/" },
-  { id: 4, label: "Media Company", image: Project_4, link: "/" },
+  { id: 1, label: "Clothes Store | Men $ Women", image: Project_1, link: "https://eng-muhammadmuhammad.github.io/shop-carts" }, 
+  { id: 2, label: "Art Coperation", image: Project_2, link: "https://eng-muhammadmuhammad.github.io/ArtCooperation/" },
+  { id: 3, label: "Design Agency", image: Project_3, link: "https://eng-muhammadmuhammad.github.io/DesignAgancy/" },
+  { id: 4, label: "Media Company", image: Project_4, link: "https://eng-muhammadmuhammad.github.io/MediaCompany" },
   { id: 5, label: "Developing Company", image: Project_5, link: "/" },
   { id: 6, label: "Sales Company / UI", image: Project_6, link: "https://www.figma.com/proto/dbRfOWUgS0aivxUxRBiRCe/design?node-id=15%3A324&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=15%3A324" },
   { id: 7, label: "Clothes Shop / UI ", image: Project_7, link: "https://www.figma.com/proto/zzzSomNyeqCJrCooboAgy4/SHOP-REMOTE?node-id=2%3A2&starting-point-node-id=2%3A2" },
