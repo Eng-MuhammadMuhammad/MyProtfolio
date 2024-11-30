@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/MyProtfolio/static/css/main.685b0126.css",
-    "main.js": "/MyProtfolio/static/js/main.d135a671.js",
+    "main.js": "/MyProtfolio/static/js/main.2706a09b.js",
     "static/media/Project_7.png": "/MyProtfolio/static/media/Project_7.b717af876094fb7c8657.png",
     "static/media/Art Coperation.png": "/MyProtfolio/static/media/Art Coperation.d4209df1467c9820a3f1.png",
     "static/media/Project_9.png": "/MyProtfolio/static/media/Project_9.9f4e95c30aabb3ff07a3.png",
+    "static/media/ShopCarts.png": "/MyProtfolio/static/media/ShopCarts.4e7fae3efc0542ced4b3.png",
     "static/media/Project_11.png": "/MyProtfolio/static/media/Project_11.5b2010b9c39694b060d7.png",
-    "static/media/ShopCart.png": "/MyProtfolio/static/media/ShopCart.df6c176f39e9bdf97c43.png",
     "static/media/Project_12.png": "/MyProtfolio/static/media/Project_12.16c5294b3dcd5f9b8d0e.png",
     "static/media/DesignAgency.png": "/MyProtfolio/static/media/DesignAgency.774a4a32fbb09778890f.png",
     "static/media/Media Company.png": "/MyProtfolio/static/media/Media Company.c2a5f53caed1496e15d7.png",
@@ -17,10 +17,10 @@
     "static/media/Project_6.png": "/MyProtfolio/static/media/Project_6.982944b1f710c091f5f3.png",
     "index.html": "/MyProtfolio/index.html",
     "main.685b0126.css.map": "/MyProtfolio/static/css/main.685b0126.css.map",
-    "main.d135a671.js.map": "/MyProtfolio/static/js/main.d135a671.js.map"
+    "main.2706a09b.js.map": "/MyProtfolio/static/js/main.2706a09b.js.map"
   },
   "entrypoints": [
     "static/css/main.685b0126.css",
-    "static/js/main.d135a671.js"
+    "static/js/main.2706a09b.js"
   ]
 }
