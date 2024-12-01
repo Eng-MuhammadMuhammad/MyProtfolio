@@ -3,6 +3,7 @@ import styles from './Projects.module.css';
 import '../Styles/Styles.module.css'
 
 import Project_1 from '../../imgs/ShopCarts.png';
+import Project_14 from '../../imgs/todoapp.png';
 import Project_2 from '../../imgs/Art Coperation.png';
 import Project_3 from '../../imgs/DesignAgency.png';
 import Project_4 from '../../imgs/Media Company.png';
@@ -17,6 +18,7 @@ import Project_13 from '../../imgs/Dribble.png';
 
 const projects = [
   { id: 1, label: "Clothes Store | Men $ Women", image: Project_1, link: "https://eng-muhammadmuhammad.github.io/shop-carts/" }, 
+  { id: 1, label: "Todo Application", image: Project_14, link: "https://eng-muhammadmuhammad.github.io/ToDoApp/" }, 
   { id: 2, label: "Art Coperation", image: Project_2, link: "https://eng-muhammadmuhammad.github.io/ArtCooperation/" },
   { id: 3, label: "Design Agency", image: Project_3, link: "https://eng-muhammadmuhammad.github.io/DesignAgancy/" },
   { id: 4, label: "Media Company", image: Project_4, link: "https://eng-muhammadmuhammad.github.io/MediaCompany" },
