@@ -91,11 +91,11 @@ const Contact = () => {
           <button type="submit" className={styles.button}>Send</button>
         </form>
         <div className={styles.contactInfo}>
-          <p>You have an idea? You need a programmer for executing it? You can contact me</p>
+          <p>You have an idea? You need a programmer for executing it? You can contact me | Fill the form for direct email</p>
           <ul className={styles.contactDetails}>
-            <li><span className={styles.icon}>📧</span> eng.hananalsaiman@gmail.com</li>
-            <li><span className={styles.icon}>📞</span> +963935739102</li>
-            <li><span className={styles.icon}>💬</span> +963935739102</li>
+            <li><span className={styles.icon}>📧</span> muhammadhaidarmuhammad@gmail.com</li>
+            <li><span className={styles.icon}>📞</span> +963992133889</li>
+            <li><span className={styles.icon}>💬</span> +963992133889</li>
           </ul>
         </div>
       </div>
