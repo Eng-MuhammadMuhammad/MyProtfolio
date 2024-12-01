@@ -4,34 +4,64 @@ import { FaBriefcase, FaBuilding, FaCalculator } from 'react-icons/fa';
 
 const experiences = [
   {
-    date: "Dec 2020 - Dec 2022",
-    company: "SWAN TECHNOLOGY",
-    duration: "2 Years",
-    location: "Homs, Syria",
-    role: "Fullstack Web Developer",
-    description: "Fullstack Web Developer in Swan Technology.",
-    skills: "Web Design, User Interface, Reactjs, Javascript, SASS, Reduxjs, CSS, HTML, Web development, Git, Laravel, Php",
-    icon: <FaBriefcase />
+    date: "Aug 2024 - Oct 2024",
+    company: "Modern Shopping | Light Store",
+    duration: "2 Months",
+    location: "Damascus, Syria",
+    role: "UI/UX Designer & Front-End Developer",
+    description: "Worked on a modern shopping platform for light products, optimizing the UI and implementing features for better product browsing and purchasing. Collaborated with back-end teams to integrate APIs.",
+    skills: "E-commerce, UI/UX Design, React.js, Web Development, JavaScript, CSS, HTML",
+    icon: <FaCalculator />
   },
   {
-    date: "Mar 2023 - May 2024",
-    company: "AlReiadh Group",
-    duration: "1 Year 2 Months",
-    location: "UAE",
-    role: "Software Engineer",
-    description: "Software engineer in Alreiadh Group for building a system for management with maintenance.",
-    skills: "Web Design, User Interface, Javascript, CSS, HTML, Web development, Git, Laravel, Php",
+    date: "May 2024 - Jul 2024",
+    company: "Todo Application",
+    duration: "2 Months",
+    location: "Damascus, Syria",
+    role: "UI/UX Designer & Front-End Developer",
+    description: "Developed a task management application with an emphasis on ease of use and responsiveness. Used React.js to build a dynamic and user-friendly platform for managing personal and team tasks.",
+    skills: "React.js, UI/UX Design, JavaScript, CSS, HTML",
     icon: <FaBuilding />
   },
   {
-    date: "Jul 2023 - Feb 2024",
-    company: "Adamz Accounting",
-    duration: "7 Months",
-    location: "UAE",
-    role: "Software Engineer",
-    description: "Software engineer in Adamz company for building systems and websites.",
-    skills: "Web Design, User Interface, Reactjs, Javascript, SASS, Reduxjs, CSS, HTML, Web development, Git, Laravel, Php",
+    date: "Jan 2024 - Apr 2024",
+    company: "Clothes Store | Men & Women",
+    duration: "4 Months",
+    location: "Damascus, Syria",
+    role: "UI/UX Designer & Front-End Developer",
+    description: "Designed and developed an e-commerce platform for a clothing store, creating an intuitive shopping experience with modern design trends. Implemented React.js and integrated payment solutions for smooth transactions.",
+    skills: "E-commerce, React.js, Web Design, CSS, HTML, User Interface, JavaScript",
+    icon: <FaBriefcase />
+  },
+  {
+    date: "Jul 2023 - Dec 2023",
+    company: "Innovative Syrian Solutions",
+    duration: "6 Months",
+    location: "Aleppo, Syria",
+    role: "UI/UX Designer & Front-End Developer",
+    description: "Worked on designing responsive and accessible user interfaces for various projects, including e-commerce and corporate websites. Focused on optimizing the design to enhance user experience, collaborating with teams to ensure seamless delivery of high-quality solutions.",
+    skills: "UI/UX Design, React.js, HTML, CSS, Prototyping, E-commerce, Figma",
     icon: <FaCalculator />
+  },
+  {
+    date: "Jan 2023 - Jun 2023",
+    company: "Syrian Tech Solutions",
+    duration: "6 Months",
+    location: "Damascus, Syria",
+    role: "UI/UX Designer & Front-End Developer",
+    description: "Led the design and development of several projects, focusing on creating modern, user-friendly interfaces. Collaborated with backend developers to integrate API services into user-facing applications, improving functionality and user experience.",
+    skills: "UI/UX Design, React.js, Front-End Development, Web Development, Figma, Sketch",
+    icon: <FaBuilding />
+  },
+  {
+    date: "Oct 2022 - Nov 2023",
+    company: "NTT Data Business Solution",
+    duration: "1 Year 1 Month",
+    location: "Remote (Germany)",
+    role: "UI/UX Designer & Front-End Developer",
+    description: "Designed and developed user-centric websites, focusing on usability, accessibility, and aesthetics. Created wireframes, mockups, and prototypes to communicate design concepts. Implemented front-end features using HTML, CSS, JavaScript, and React.js. Conducted user research and testing to improve user experience, collaborating closely with designers, developers, and project managers to deliver high-quality solutions.",
+    skills: "UI/UX Design, Front-End Development, HTML, CSS, JavaScript, React.js, Prototyping, User Research, Accessibility",
+    icon: <FaBriefcase />
   }
 ];
 
@@ -39,7 +69,6 @@ const Experiences = () => {
   const itemsRef = useRef([]);
 
   useEffect(() => {
-   
     const currentItems = itemsRef.current;
 
     const observer = new IntersectionObserver(
@@ -57,13 +86,12 @@ const Experiences = () => {
       if (item) observer.observe(item);
     });
 
-    
     return () => {
       currentItems.forEach((item) => {
         if (item) observer.unobserve(item);
       });
     };
-  }, []); 
+  }, []);
 
   return (
     <div id='experiences' className={styles.experiences}>
