@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyProtfolio/static/css/main.88f805cd.css",
-    "main.js": "/MyProtfolio/static/js/main.56c37c8e.js",
+    "main.js": "/MyProtfolio/static/js/main.244a2f0f.js",
     "static/media/Project_7.png": "/MyProtfolio/static/media/Project_7.b717af876094fb7c8657.png",
     "static/media/Art Coperation.png": "/MyProtfolio/static/media/Art Coperation.d4209df1467c9820a3f1.png",
     "static/media/Project_9.png": "/MyProtfolio/static/media/Project_9.9f4e95c30aabb3ff07a3.png",
@@ -13,14 +13,15 @@
     "static/media/TheDeveloper.png": "/MyProtfolio/static/media/TheDeveloper.096c1871d737df82e9dd.png",
     "static/media/Dribble.png": "/MyProtfolio/static/media/Dribble.512d062287a5ebe24959.png",
     "static/media/logo.png": "/MyProtfolio/static/media/logo.55dc8c6d7e71a131c331.png",
+    "static/media/todoapp.png": "/MyProtfolio/static/media/todoapp.adb4bf4a91afb07dadbb.png",
     "static/media/Project_8.png": "/MyProtfolio/static/media/Project_8.6d58b8088c2946471791.png",
     "static/media/Project_6.png": "/MyProtfolio/static/media/Project_6.982944b1f710c091f5f3.png",
     "index.html": "/MyProtfolio/index.html",
     "main.88f805cd.css.map": "/MyProtfolio/static/css/main.88f805cd.css.map",
-    "main.56c37c8e.js.map": "/MyProtfolio/static/js/main.56c37c8e.js.map"
+    "main.244a2f0f.js.map": "/MyProtfolio/static/js/main.244a2f0f.js.map"
   },
   "entrypoints": [
     "static/css/main.88f805cd.css",
-    "static/js/main.56c37c8e.js"
+    "static/js/main.244a2f0f.js"
   ]
 }
