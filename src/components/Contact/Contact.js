@@ -91,7 +91,8 @@ const Contact = () => {
           <button type="submit" className={styles.button}>Send</button>
         </form>
         <div className={styles.contactInfo}>
-          <p>You have an idea? You need a programmer for executing it? You can contact me | Fill the form for direct email</p>
+        <p>You have an idea and need a developer to bring it to life ? feel free to contact me | <span className={styles.boldText}>OR directly by filling out the form below</span></p>
+
           <ul className={styles.contactDetails}>
             <li><span className={styles.icon}>📧</span> muhammadhaidarmuhammad@gmail.com</li>
             <li><span className={styles.icon}>📞</span> +963992133889</li>
