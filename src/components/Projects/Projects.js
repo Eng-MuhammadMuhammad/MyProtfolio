@@ -3,8 +3,6 @@ import styles from './Projects.module.css';
 import '../Styles/Styles.module.css'
 
 import Project_1 from '../../imgs/ShopCarts.png';
-import Project_14 from '../../imgs/todoapp.png';
-import Project_15 from '../../imgs/LighStore.png';
 import Project_2 from '../../imgs/Art Coperation.png';
 import Project_3 from '../../imgs/DesignAgency.png';
 import Project_4 from '../../imgs/Media Company.png';
@@ -16,9 +14,14 @@ import Project_9 from '../../imgs/Project_9.png';
 import Project_11 from '../../imgs/Project_11.png';
 import Project_12 from '../../imgs/Project_12.png';
 import Project_13 from '../../imgs/Dribble.png';
+import Project_14 from '../../imgs/todoapp.png';
+import Project_15 from '../../imgs/LighStore.png';
+import Project_16 from '../../imgs/Profile_Dashboard.png'
+
 
 const projects = [
   { id: 1, label: "Clothes Store | Men $ Women", image: Project_1, link: "https://eng-muhammadmuhammad.github.io/shop-carts/" }, 
+  { id: 1, label: "Dashboard | Profile", image: Project_16, link: "https://eng-muhammadmuhammad.github.io/ProfileDashboard/" }, 
   { id: 1, label: "Todo Application", image: Project_14, link: "https://eng-muhammadmuhammad.github.io/ToDoApp/" }, 
   { id: 1, label: "Modern Shopping | Light Store", image: Project_15, link: "https://eng-muhammadmuhammad.github.io/LightStore/" }, 
   { id: 2, label: "Art Coperation", image: Project_2, link: "https://eng-muhammadmuhammad.github.io/ArtCooperation/" },
