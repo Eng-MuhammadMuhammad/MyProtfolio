@@ -33,9 +33,7 @@ const Header = () => {
         src={logo}
         alt="Logo"
         className={styles.logo}
-        onClick={() => {
-          window.location.href = '/'; // Navigates to the root URL for a fresh visit
-        }}
+        onClick={() => window.location.reload()}
       />
       <button className={styles.mobileMenuButton} onClick={toggleMobileMenu}>
         {isMobileMenuOpen ? 'X' : '☰'}
